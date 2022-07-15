@@ -8,10 +8,13 @@
 import UIKit
 
 class AddViewController: UIViewController {
-
+  
+  @IBOutlet weak var marketPriceLabel: UILabel!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
+    
+    //FIXME: - 如何設置分散對齊？
   }
 
 

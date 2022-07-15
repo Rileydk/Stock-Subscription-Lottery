@@ -108,6 +108,9 @@
                             <constraint firstItem="NyM-QB-yAC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="d8B-uQ-XfD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="marketPriceLabel" destination="dcI-7X-ab7" id="kRM-6x-mcI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
